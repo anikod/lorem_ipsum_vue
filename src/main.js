@@ -1,10 +1,14 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+// import Lato from "./assets/f"
 
-import './assets/main.css'
+// import Header from './components/Header.vue';
 
-const app = createApp(App)
+
+const app = createApp(App);
+
+// app.component('Header', Header);
 
 app.use(router)
 
